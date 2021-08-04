@@ -9,19 +9,17 @@ import UIKit
 
 class ForkViewController: UIViewController {
 
-    @IBOutlet weak var itemImage: UIImageView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        itemImage.layer.cornerRadius = 50
-        itemImage.clipsToBounds = true
-        itemImage.layer.borderColor = #31542C
-        
+
 
     }
     
 
+   
+    
     /*
     // MARK: - Navigation
 
