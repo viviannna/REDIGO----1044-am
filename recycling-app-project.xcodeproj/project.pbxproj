@@ -14,7 +14,6 @@
 		BDD011C926B9B0F20045BBAF /* recycling_app_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD011C726B9B0F20045BBAF /* recycling_app_project.xcdatamodeld */; };
 		BDD011CB26B9B0F30045BBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD011CA26B9B0F30045BBAF /* Assets.xcassets */; };
 		BDD011CE26B9B0F30045BBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD011CC26B9B0F30045BBAF /* LaunchScreen.storyboard */; };
-		BDD011D626BB0A020045BBAF /* ForkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011D526BB0A020045BBAF /* ForkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		BDD011CA26B9B0F30045BBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD011CD26B9B0F30045BBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD011CF26B9B0F30045BBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDD011D526BB0A020045BBAF /* ForkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				BDD011C026B9B0F20045BBAF /* SceneDelegate.swift */,
 				BDD011C226B9B0F20045BBAF /* ViewController.swift */,
 				BDD011C426B9B0F20045BBAF /* Main.storyboard */,
-				BDD011D526BB0A020045BBAF /* ForkViewController.swift */,
 				BDD011CA26B9B0F30045BBAF /* Assets.xcassets */,
 				BDD011CC26B9B0F30045BBAF /* LaunchScreen.storyboard */,
 				BDD011CF26B9B0F30045BBAF /* Info.plist */,
@@ -147,7 +144,6 @@
 				BDD011C326B9B0F20045BBAF /* ViewController.swift in Sources */,
 				BDD011BF26B9B0F20045BBAF /* AppDelegate.swift in Sources */,
 				BDD011C126B9B0F20045BBAF /* SceneDelegate.swift in Sources */,
-				BDD011D626BB0A020045BBAF /* ForkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
