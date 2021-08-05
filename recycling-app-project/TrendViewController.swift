@@ -8,14 +8,19 @@
 import UIKit
 
 class TrendViewController: UIViewController {
-    var previousVC = ToDoTableViewController()
-
-
+    
+    var trends = RecycleCount()
+    @IBOutlet weak var plasticCountLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        plasticCountLabel.text = "Counter: \(trends.plasticCounter)"
 
         // Do any additional setup after loading the view.
     }
+    
+
     
 
     /*

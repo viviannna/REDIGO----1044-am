@@ -28,6 +28,7 @@
 		BDD011EE26BC45360045BBAF /* StrawsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011ED26BC45360045BBAF /* StrawsViewController.swift */; };
 		BDD011F026BC45410045BBAF /* SodaCansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011EF26BC45410045BBAF /* SodaCansViewController.swift */; };
 		BDD011F226BC53A70045BBAF /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011F126BC53A70045BBAF /* TrendViewController.swift */; };
+		BDD011F426BC64210045BBAF /* recycleCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011F326BC64210045BBAF /* recycleCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		BDD011ED26BC45360045BBAF /* StrawsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawsViewController.swift; sourceTree = "<group>"; };
 		BDD011EF26BC45410045BBAF /* SodaCansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaCansViewController.swift; sourceTree = "<group>"; };
 		BDD011F126BC53A70045BBAF /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		BDD011F326BC64210045BBAF /* recycleCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recycleCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BDD011D926BC29490045BBAF /* AluminumViewController.swift */,
 				BDD011DB26BC295B0045BBAF /* CoffeeViewController.swift */,
 				BDD011D726BC29360045BBAF /* PlasticViewController.swift */,
+				BDD011F326BC64210045BBAF /* recycleCount.swift */,
 				BDD011CA26B9B0F30045BBAF /* Assets.xcassets */,
 				BDD011CC26B9B0F30045BBAF /* LaunchScreen.storyboard */,
 				BDD011CF26B9B0F30045BBAF /* Info.plist */,
@@ -184,6 +187,7 @@
 			files = (
 				BDD011E226BC44040045BBAF /* BatteriesViewController.swift in Sources */,
 				BDD011DA26BC29490045BBAF /* AluminumViewController.swift in Sources */,
+				BDD011F426BC64210045BBAF /* recycleCount.swift in Sources */,
 				BDD011C926B9B0F20045BBAF /* recycling_app_project.xcdatamodeld in Sources */,
 				BDD011E426BC44DD0045BBAF /* FoodCansViewController.swift in Sources */,
 				BDD011C326B9B0F20045BBAF /* ViewController.swift in Sources */,
