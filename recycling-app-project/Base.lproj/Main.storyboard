@@ -56,10 +56,18 @@
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwv-Bd-xev">
-                                <rect key="frame" x="157" y="184" width="100" height="60"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufp-9f-eU9">
+                                <rect key="frame" x="41" y="184" width="120" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Aluminum Foil"/>
+                                <state key="normal" backgroundImage="plastic-fork"/>
+                                <connections>
+                                    <segue destination="zZd-vx-uvz" kind="show" id="fSb-m2-gYE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwv-Bd-xev">
+                                <rect key="frame" x="157" y="184" width="120" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="aluminum foil"/>
                                 <connections>
                                     <segue destination="qdm-Yh-K3r" kind="show" id="1Cn-LO-3sI"/>
                                 </connections>
@@ -67,89 +75,81 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpd-nH-2Fp">
                                 <rect key="frame" x="278" y="184" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Coffee Cups"/>
+                                <state key="normal" backgroundImage="disp-coffee-cup"/>
                                 <connections>
                                     <segue destination="PES-5W-FvG" kind="show" id="VCS-zi-Y8S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ttb-Ww-eIo">
-                                <rect key="frame" x="43" y="339" width="100" height="60"/>
+                                <rect key="frame" x="40" y="303" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Glass Jars"/>
+                                <state key="normal" backgroundImage="glass jar"/>
                                 <connections>
                                     <segue destination="gYh-LB-Ews" kind="show" id="bof-Mf-6De"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ih-gY-rkf">
-                                <rect key="frame" x="157" y="339" width="100" height="60"/>
+                                <rect key="frame" x="154" y="303" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Ink Cartridges"/>
+                                <state key="normal" backgroundImage="ink-cartridges"/>
                                 <connections>
                                     <segue destination="z39-6b-i1c" kind="show" id="Jt0-Nz-w10"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gph-51-tlj">
-                                <rect key="frame" x="278" y="339" width="100" height="60"/>
+                                <rect key="frame" x="275" y="303" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pizza Boxes"/>
+                                <state key="normal" backgroundImage="pizzaBoxes"/>
                                 <connections>
                                     <segue destination="wLq-bx-40I" kind="show" id="f79-dL-Bqt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVe-b3-27a">
-                                <rect key="frame" x="43" y="407" width="100" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Plastic Bags"/>
-                                <connections>
-                                    <segue destination="JjE-6Z-fDe" kind="show" id="5Zi-MG-651"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyY-Yj-ANX">
-                                <rect key="frame" x="157" y="407" width="100" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Straws"/>
-                                <connections>
-                                    <segue destination="eLh-Yk-Y8b" kind="show" id="er3-Pc-IUM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBp-gi-1c7">
-                                <rect key="frame" x="278" y="407" width="100" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Soda Cans"/>
-                                <connections>
-                                    <segue destination="vlP-UZ-BH5" kind="show" id="0Jd-87-ESy"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFb-sv-ug9">
-                                <rect key="frame" x="43" y="475" width="100" height="60"/>
+                                <rect key="frame" x="40" y="552" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Styrofoam"/>
+                                <state key="normal" backgroundImage="styrofoam"/>
                                 <connections>
                                     <segue destination="QIO-4L-yns" kind="show" id="YmU-Ce-9R4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaJ-ch-o0R">
-                                <rect key="frame" x="157" y="475" width="100" height="60"/>
+                                <rect key="frame" x="153" y="552" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Batteries"/>
+                                <state key="normal" backgroundImage="batteries"/>
                                 <connections>
                                     <segue destination="PGk-b4-Jh5" kind="show" id="dAw-tP-Szl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prS-5r-b1j">
-                                <rect key="frame" x="278" y="474" width="100" height="60"/>
+                                <rect key="frame" x="274" y="551" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Food Cans"/>
+                                <state key="normal" backgroundImage="canned-foods-1"/>
                                 <connections>
                                     <segue destination="jMt-1R-jYh" kind="show" id="UrN-hw-KEp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufp-9f-eU9">
-                                <rect key="frame" x="-349" y="-62" width="1146" height="552"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVe-b3-27a">
+                                <rect key="frame" x="40" y="426" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Plastic Utensils" image="plastic-fork"/>
+                                <state key="normal" backgroundImage="plastic bag"/>
                                 <connections>
-                                    <segue destination="zZd-vx-uvz" kind="show" id="fSb-m2-gYE"/>
+                                    <segue destination="JjE-6Z-fDe" kind="show" id="5Zi-MG-651"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyY-Yj-ANX">
+                                <rect key="frame" x="153" y="426" width="100" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="plastic straws"/>
+                                <connections>
+                                    <segue destination="eLh-Yk-Y8b" kind="show" id="er3-Pc-IUM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBp-gi-1c7">
+                                <rect key="frame" x="274" y="426" width="100" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="soda can"/>
+                                <connections>
+                                    <segue destination="vlP-UZ-BH5" kind="show" id="0Jd-87-ESy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -626,7 +626,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee cup" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-rV-9WG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disp-coffee-cup" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-rV-9WG">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1472,7 +1472,7 @@ supporting restaurants with biodegradable/compostable utensils
         <image name="aluminum foil" width="600" height="600"/>
         <image name="batteries" width="200" height="200"/>
         <image name="canned-foods-1" width="564" height="291"/>
-        <image name="coffee cup" width="840" height="859"/>
+        <image name="disp-coffee-cup" width="442" height="452"/>
         <image name="glass jar" width="500" height="500"/>
         <image name="ink-cartridges" width="500" height="500"/>
         <image name="pizzaBoxes" width="700" height="700"/>
