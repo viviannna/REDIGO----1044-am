@@ -18,6 +18,16 @@
 		BDD011DA26BC29490045BBAF /* AluminumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011D926BC29490045BBAF /* AluminumViewController.swift */; };
 		BDD011DC26BC295B0045BBAF /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011DB26BC295B0045BBAF /* CoffeeViewController.swift */; };
 		BDD011DE26BC29890045BBAF /* RecyclableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011DD26BC29890045BBAF /* RecyclableViewController.swift */; };
+		BDD011E026BC43F20045BBAF /* StyrofoamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011DF26BC43F20045BBAF /* StyrofoamViewController.swift */; };
+		BDD011E226BC44040045BBAF /* BatteriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E126BC44040045BBAF /* BatteriesViewController.swift */; };
+		BDD011E426BC44DD0045BBAF /* FoodCansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E326BC44DD0045BBAF /* FoodCansViewController.swift */; };
+		BDD011E626BC44FE0045BBAF /* GlassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E526BC44FE0045BBAF /* GlassViewController.swift */; };
+		BDD011E826BC450D0045BBAF /* InkCartridgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E726BC450D0045BBAF /* InkCartridgesViewController.swift */; };
+		BDD011EA26BC451E0045BBAF /* PizzaBoxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E926BC451E0045BBAF /* PizzaBoxesViewController.swift */; };
+		BDD011EC26BC452A0045BBAF /* PlasticBagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011EB26BC452A0045BBAF /* PlasticBagsViewController.swift */; };
+		BDD011EE26BC45360045BBAF /* StrawsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011ED26BC45360045BBAF /* StrawsViewController.swift */; };
+		BDD011F026BC45410045BBAF /* SodaCansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011EF26BC45410045BBAF /* SodaCansViewController.swift */; };
+		BDD011F226BC53A70045BBAF /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011F126BC53A70045BBAF /* TrendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +44,16 @@
 		BDD011D926BC29490045BBAF /* AluminumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluminumViewController.swift; sourceTree = "<group>"; };
 		BDD011DB26BC295B0045BBAF /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
 		BDD011DD26BC29890045BBAF /* RecyclableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclableViewController.swift; sourceTree = "<group>"; };
+		BDD011DF26BC43F20045BBAF /* StyrofoamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyrofoamViewController.swift; sourceTree = "<group>"; };
+		BDD011E126BC44040045BBAF /* BatteriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriesViewController.swift; sourceTree = "<group>"; };
+		BDD011E326BC44DD0045BBAF /* FoodCansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCansViewController.swift; sourceTree = "<group>"; };
+		BDD011E526BC44FE0045BBAF /* GlassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassViewController.swift; sourceTree = "<group>"; };
+		BDD011E726BC450D0045BBAF /* InkCartridgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkCartridgesViewController.swift; sourceTree = "<group>"; };
+		BDD011E926BC451E0045BBAF /* PizzaBoxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaBoxesViewController.swift; sourceTree = "<group>"; };
+		BDD011EB26BC452A0045BBAF /* PlasticBagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticBagsViewController.swift; sourceTree = "<group>"; };
+		BDD011ED26BC45360045BBAF /* StrawsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawsViewController.swift; sourceTree = "<group>"; };
+		BDD011EF26BC45410045BBAF /* SodaCansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaCansViewController.swift; sourceTree = "<group>"; };
+		BDD011F126BC53A70045BBAF /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +90,16 @@
 				BDD011C026B9B0F20045BBAF /* SceneDelegate.swift */,
 				BDD011C226B9B0F20045BBAF /* ViewController.swift */,
 				BDD011C426B9B0F20045BBAF /* Main.storyboard */,
+				BDD011F126BC53A70045BBAF /* TrendViewController.swift */,
+				BDD011EF26BC45410045BBAF /* SodaCansViewController.swift */,
+				BDD011ED26BC45360045BBAF /* StrawsViewController.swift */,
+				BDD011EB26BC452A0045BBAF /* PlasticBagsViewController.swift */,
+				BDD011E926BC451E0045BBAF /* PizzaBoxesViewController.swift */,
+				BDD011E726BC450D0045BBAF /* InkCartridgesViewController.swift */,
+				BDD011E526BC44FE0045BBAF /* GlassViewController.swift */,
+				BDD011E326BC44DD0045BBAF /* FoodCansViewController.swift */,
+				BDD011E126BC44040045BBAF /* BatteriesViewController.swift */,
+				BDD011DF26BC43F20045BBAF /* StyrofoamViewController.swift */,
 				BDD011DD26BC29890045BBAF /* RecyclableViewController.swift */,
 				BDD011D926BC29490045BBAF /* AluminumViewController.swift */,
 				BDD011DB26BC295B0045BBAF /* CoffeeViewController.swift */,
@@ -152,13 +182,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD011E226BC44040045BBAF /* BatteriesViewController.swift in Sources */,
 				BDD011DA26BC29490045BBAF /* AluminumViewController.swift in Sources */,
 				BDD011C926B9B0F20045BBAF /* recycling_app_project.xcdatamodeld in Sources */,
+				BDD011E426BC44DD0045BBAF /* FoodCansViewController.swift in Sources */,
 				BDD011C326B9B0F20045BBAF /* ViewController.swift in Sources */,
+				BDD011EC26BC452A0045BBAF /* PlasticBagsViewController.swift in Sources */,
 				BDD011D826BC29360045BBAF /* PlasticViewController.swift in Sources */,
 				BDD011DC26BC295B0045BBAF /* CoffeeViewController.swift in Sources */,
+				BDD011EE26BC45360045BBAF /* StrawsViewController.swift in Sources */,
+				BDD011F026BC45410045BBAF /* SodaCansViewController.swift in Sources */,
+				BDD011F226BC53A70045BBAF /* TrendViewController.swift in Sources */,
 				BDD011BF26B9B0F20045BBAF /* AppDelegate.swift in Sources */,
 				BDD011DE26BC29890045BBAF /* RecyclableViewController.swift in Sources */,
+				BDD011E826BC450D0045BBAF /* InkCartridgesViewController.swift in Sources */,
+				BDD011E626BC44FE0045BBAF /* GlassViewController.swift in Sources */,
+				BDD011EA26BC451E0045BBAF /* PizzaBoxesViewController.swift in Sources */,
+				BDD011E026BC43F20045BBAF /* StyrofoamViewController.swift in Sources */,
 				BDD011C126B9B0F20045BBAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

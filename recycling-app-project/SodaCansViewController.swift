@@ -1,5 +1,5 @@
 //
-//  PlasticViewController.swift
+//  SodaCansViewController.swift
 //  recycling-app-project
 //
 //  Created by Scholar on 8/5/21.
@@ -7,20 +7,13 @@
 
 import UIKit
 
-class PlasticViewController: UIViewController {
+class SodaCansViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    var timesRecycled = 0
-    @IBAction func didRecycleBtn(_ sender: UIButton) {
-        timesRecycled += 1
-
-    }
-    
     
 
     /*
