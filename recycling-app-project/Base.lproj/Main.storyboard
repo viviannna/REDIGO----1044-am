@@ -58,7 +58,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwv-Bd-xev">
                                 <rect key="frame" x="157" y="184" width="120" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="aluminum foil"/>
+                                <state key="normal" backgroundImage="foils(1)"/>
                                 <connections>
                                     <segue destination="qdm-Yh-K3r" kind="show" id="1Cn-LO-3sI"/>
                                 </connections>
@@ -66,7 +66,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpd-nH-2Fp">
                                 <rect key="frame" x="278" y="184" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="disp-coffee-cup"/>
+                                <state key="normal" backgroundImage="coffee cup-1"/>
                                 <connections>
                                     <segue destination="PES-5W-FvG" kind="show" id="VCS-zi-Y8S"/>
                                 </connections>
@@ -82,7 +82,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ih-gY-rkf">
                                 <rect key="frame" x="154" y="303" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="ink-cartridges"/>
+                                <state key="normal" backgroundImage="ink cartridges (5)"/>
                                 <connections>
                                     <segue destination="z39-6b-i1c" kind="show" id="Jt0-Nz-w10"/>
                                 </connections>
@@ -90,7 +90,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gph-51-tlj">
                                 <rect key="frame" x="275" y="303" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="pizzaBoxes"/>
+                                <state key="normal" backgroundImage="Pizza Box(6)"/>
                                 <connections>
                                     <segue destination="wLq-bx-40I" kind="show" id="f79-dL-Bqt"/>
                                 </connections>
@@ -98,7 +98,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFb-sv-ug9">
                                 <rect key="frame" x="40" y="552" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="styrofoam"/>
+                                <state key="normal" backgroundImage="foam cup (15)"/>
                                 <connections>
                                     <segue destination="QIO-4L-yns" kind="show" id="YmU-Ce-9R4"/>
                                 </connections>
@@ -114,7 +114,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prS-5r-b1j">
                                 <rect key="frame" x="274" y="551" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="canned-foods-1"/>
+                                <state key="normal" backgroundImage="food cans (17)"/>
                                 <connections>
                                     <segue destination="jMt-1R-jYh" kind="show" id="UrN-hw-KEp"/>
                                 </connections>
@@ -122,7 +122,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVe-b3-27a">
                                 <rect key="frame" x="40" y="426" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="plastic bag"/>
+                                <state key="normal" backgroundImage="plasticbag(6)"/>
                                 <connections>
                                     <segue destination="JjE-6Z-fDe" kind="show" id="5Zi-MG-651"/>
                                 </connections>
@@ -130,7 +130,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyY-Yj-ANX">
                                 <rect key="frame" x="153" y="426" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="plastic straws"/>
+                                <state key="normal" backgroundImage="straw(13)"/>
                                 <connections>
                                     <segue destination="eLh-Yk-Y8b" kind="show" id="er3-Pc-IUM"/>
                                 </connections>
@@ -138,7 +138,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBp-gi-1c7">
                                 <rect key="frame" x="274" y="426" width="100" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="soda can"/>
+                                <state key="normal" backgroundImage="soda can (14)"/>
                                 <connections>
                                     <segue destination="vlP-UZ-BH5" kind="show" id="0Jd-87-ESy"/>
                                 </connections>
@@ -403,7 +403,7 @@
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canned-foods-1" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-Ys-k8e">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food cans (17)" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-Ys-k8e">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -844,6 +844,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="m7b-bN-Qfi"/>
+                                    <action selector="foilBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="lzR-Mg-OTW"/>
                                     <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="fC0-Qq-ALa"/>
                                 </connections>
                             </button>
@@ -1026,7 +1027,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ink-cartridges" translatesAutoresizingMaskIntoConstraints="NO" id="7xP-IV-XBu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ink cartridges (5)" translatesAutoresizingMaskIntoConstraints="NO" id="7xP-IV-XBu">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1150,7 +1151,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizzaBoxes" translatesAutoresizingMaskIntoConstraints="NO" id="77L-lj-WJA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pizza Box(6)" translatesAutoresizingMaskIntoConstraints="NO" id="77L-lj-WJA">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1279,7 +1280,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plastic bag" translatesAutoresizingMaskIntoConstraints="NO" id="zu1-9q-Tzh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plasticbag(6)" translatesAutoresizingMaskIntoConstraints="NO" id="zu1-9q-Tzh">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1387,7 +1388,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plastic straws" translatesAutoresizingMaskIntoConstraints="NO" id="BJU-Yh-R21">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="straw(13)" translatesAutoresizingMaskIntoConstraints="NO" id="BJU-Yh-R21">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1495,7 +1496,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soda can" translatesAutoresizingMaskIntoConstraints="NO" id="dh9-DP-at9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soda can (14)" translatesAutoresizingMaskIntoConstraints="NO" id="dh9-DP-at9">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1623,35 +1624,35 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bnR-Py-q00">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foils(1)" translatesAutoresizingMaskIntoConstraints="NO" id="bnR-Py-q00">
                                                 <rect key="frame" x="47" y="271" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S41-GG-ssF">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plastic utensils " translatesAutoresizingMaskIntoConstraints="NO" id="S41-GG-ssF">
                                                 <rect key="frame" x="47" y="151" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGp-hg-ATz">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glass jar" translatesAutoresizingMaskIntoConstraints="NO" id="eGp-hg-ATz">
                                                 <rect key="frame" x="47" y="388" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0pU-6r-QiZ">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ink cartridges (5)" translatesAutoresizingMaskIntoConstraints="NO" id="0pU-6r-QiZ">
                                                 <rect key="frame" x="47" y="506" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGC-pn-puR">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pizza Box(6)" translatesAutoresizingMaskIntoConstraints="NO" id="XGC-pn-puR">
                                                 <rect key="frame" x="47" y="626" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gN5-At-fvH">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soda can (14)" translatesAutoresizingMaskIntoConstraints="NO" id="gN5-At-fvH">
                                                 <rect key="frame" x="47" y="744" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oos-Yl-PHu">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="batteries" translatesAutoresizingMaskIntoConstraints="NO" id="oos-Yl-PHu">
                                                 <rect key="frame" x="47" y="862" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxx-Nb-owI">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food cans (17)" translatesAutoresizingMaskIntoConstraints="NO" id="dxx-Nb-owI">
                                                 <rect key="frame" x="47" y="981" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -1840,13 +1841,6 @@ supporting restaurants with biodegradable/compostable utensils
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Improve Your Recycling Today" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6i-KK-TaO">
-                                <rect key="frame" x="33" y="102" width="349" height="127"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="37"/>
-                                <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFG-zD-NEC">
                                 <rect key="frame" x="33" y="363" width="295" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1881,6 +1875,17 @@ supporting restaurants with biodegradable/compostable utensils
                                     <segue destination="OtS-lQ-Bj7" kind="show" id="6gG-FR-5QN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Improve Your Recycling Today" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6i-KK-TaO">
+                                <rect key="frame" x="40" y="188" width="349" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="37"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo1(redigo)-1" translatesAutoresizingMaskIntoConstraints="NO" id="vgi-8h-gmU">
+                                <rect key="frame" x="20" y="127" width="91" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R0z-Rs-Pn9"/>
                         <color key="backgroundColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1906,22 +1911,27 @@ supporting restaurants with biodegradable/compostable utensils
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="biX-dO-hFE"/>
-        <segue reference="MFn-mF-3EV"/>
+        <segue reference="0XG-eE-1gv"/>
+        <segue reference="bBB-iA-nIB"/>
+        <segue reference="6gG-FR-5QN"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Pizza Box(6)" width="1500" height="1500"/>
         <image name="aluminum foil" width="600" height="600"/>
         <image name="batteries" width="1500" height="1500"/>
-        <image name="canned-foods-1" width="564" height="291"/>
+        <image name="coffee cup-1" width="1500" height="1500"/>
         <image name="disp-coffee-cup" width="442" height="452"/>
+        <image name="foam cup (15)" width="1500" height="1500"/>
+        <image name="foils(1)" width="1500" height="1500"/>
+        <image name="food cans (17)" width="1500" height="1500"/>
         <image name="glass jar" width="1500" height="1500"/>
-        <image name="ink-cartridges" width="500" height="500"/>
+        <image name="ink cartridges (5)" width="1500" height="1500"/>
         <image name="logo-4(redigo)" width="2550" height="3300"/>
-        <image name="pizzaBoxes" width="700" height="700"/>
-        <image name="plastic bag" width="1500" height="1493"/>
-        <image name="plastic straws" width="611" height="878"/>
+        <image name="logo1(redigo)-1" width="2550" height="3300"/>
         <image name="plastic utensils " width="1500" height="1500"/>
-        <image name="soda can" width="325" height="255"/>
+        <image name="plasticbag(6)" width="1500" height="1500"/>
+        <image name="soda can (14)" width="1500" height="1500"/>
+        <image name="straw(13)" width="1500" height="1500"/>
         <image name="styrofoam" width="270" height="270"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
