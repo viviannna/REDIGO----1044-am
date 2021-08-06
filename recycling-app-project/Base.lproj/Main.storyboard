@@ -192,7 +192,7 @@
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="styrofoam" translatesAutoresizingMaskIntoConstraints="NO" id="ktC-Vs-xXR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foam cup (15)" translatesAutoresizingMaskIntoConstraints="NO" id="ktC-Vs-xXR">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -569,15 +569,15 @@ supporting restaurants with biodegradable/compostable utensils
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMm-Sq-iwg">
                                 <rect key="frame" x="42" y="602" width="326" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">dible cutlery 
+                                <string key="text">Edible cutlery 
 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="supporting restaurants with compostable utensils" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsd-DY-JHT">
-                                <rect key="frame" x="43" y="631" width="327" height="57"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Supporting restaurants with compostable utensils" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsd-DY-JHT">
+                                <rect key="frame" x="43" y="628" width="327" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -661,7 +661,7 @@ supporting restaurants with biodegradable/compostable utensils
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6c-Pj-mdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3558" y="1280"/>
+            <point key="canvasLocation" x="-3559.420289855073" y="1279.6875"/>
         </scene>
         <!--Coffee View Controller-->
         <scene sceneID="08u-kf-cSg">
@@ -678,7 +678,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disp-coffee-cup" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-rV-9WG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee cup-1" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-rV-9WG">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -772,7 +772,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aluminum foil" translatesAutoresizingMaskIntoConstraints="NO" id="jWp-pU-XEo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foils(1)" translatesAutoresizingMaskIntoConstraints="NO" id="jWp-pU-XEo">
                                 <rect key="frame" x="43" y="150" width="326" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
@@ -1911,16 +1911,13 @@ supporting restaurants with biodegradable/compostable utensils
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0XG-eE-1gv"/>
-        <segue reference="bBB-iA-nIB"/>
-        <segue reference="6gG-FR-5QN"/>
+        <segue reference="ZoQ-bi-7pn"/>
+        <segue reference="EHR-vW-Yol"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Pizza Box(6)" width="1500" height="1500"/>
-        <image name="aluminum foil" width="600" height="600"/>
         <image name="batteries" width="1500" height="1500"/>
         <image name="coffee cup-1" width="1500" height="1500"/>
-        <image name="disp-coffee-cup" width="442" height="452"/>
         <image name="foam cup (15)" width="1500" height="1500"/>
         <image name="foils(1)" width="1500" height="1500"/>
         <image name="food cans (17)" width="1500" height="1500"/>
@@ -1932,7 +1929,6 @@ supporting restaurants with biodegradable/compostable utensils
         <image name="plasticbag(6)" width="1500" height="1500"/>
         <image name="soda can (14)" width="1500" height="1500"/>
         <image name="straw(13)" width="1500" height="1500"/>
-        <image name="styrofoam" width="270" height="270"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
