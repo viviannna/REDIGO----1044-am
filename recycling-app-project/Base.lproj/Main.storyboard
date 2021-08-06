@@ -331,20 +331,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXa-go-gL6">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhD-Kw-0hs">
                                 <rect key="frame" x="103" y="731" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -355,6 +341,41 @@
                                 </state>
                                 <connections>
                                     <segue destination="iuV-mB-EFc" kind="show" id="1DV-dL-FvP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWR-yN-hnA">
+                                <rect key="frame" x="102" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="batteryBtn:" destination="PGk-b4-Jh5" eventType="touchUpInside" id="kgD-OC-KQ0"/>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="7Nj-OM-a0E"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="t0d-Jl-G0H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfb-Bq-Y2R">
+                                <rect key="frame" x="149" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="AeI-z0-aL9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -441,20 +462,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G39-kW-bvF">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7S5-iM-vXu">
                                 <rect key="frame" x="103" y="731" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -470,6 +477,41 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="iuV-mB-EFc" kind="show" id="w5t-Ox-bTa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOa-D0-Qz7">
+                                <rect key="frame" x="103" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="L4V-Ph-kXg"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="Zzf-Bw-apv"/>
+                                    <action selector="foodBtn:" destination="jMt-1R-jYh" eventType="touchUpInside" id="NRL-7K-hZ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRK-uf-ih8">
+                                <rect key="frame" x="150" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="MFn-mF-3EV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -546,7 +588,7 @@ supporting restaurants with biodegradable/compostable utensils
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
+                                <state key="normal" title="✅">
                                     <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -598,7 +640,15 @@ supporting restaurants with biodegradable/compostable utensils
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fb-Vg-Rxt">
                                 <rect key="frame" x="150" y="693" width="162" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Click To See Tracker"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="OtS-lQ-Bj7" kind="show" id="60n-K1-u7U"/>
                                 </connections>
@@ -611,7 +661,7 @@ supporting restaurants with biodegradable/compostable utensils
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6c-Pj-mdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="95.652173913043484" y="837.72321428571422"/>
+            <point key="canvasLocation" x="-3558" y="1280"/>
         </scene>
         <!--Coffee View Controller-->
         <scene sceneID="08u-kf-cSg">
@@ -705,7 +755,7 @@ supporting restaurants with biodegradable/compostable utensils
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZJk-GU-Bd6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1442" y="834"/>
+            <point key="canvasLocation" x="-2213" y="1276"/>
         </scene>
         <!--Aluminum View Controller-->
         <scene sceneID="Qro-lh-SM7">
@@ -758,37 +808,6 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFx-f6-uJV">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usS-1n-DT2">
-                                <rect key="frame" x="103" y="731" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="iuV-mB-EFc" kind="show" id="hl2-l2-HFP"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*must be properly washed of food residue*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIL-W5-pBh">
                                 <rect key="frame" x="43" y="367" width="308" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -810,6 +829,54 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wes-tU-Fdt">
+                                <rect key="frame" x="103" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="m7b-bN-Qfi"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="fC0-Qq-ALa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlI-WN-LWn">
+                                <rect key="frame" x="103" y="731" width="209" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qe-w7-HZ8">
+                                <rect key="frame" x="150" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="60P-w0-v77"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="znC-yg-6l1"/>
                         <color key="backgroundColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -818,7 +885,7 @@ supporting restaurants with biodegradable/compostable utensils
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cAR-6G-vb1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="767" y="834"/>
+            <point key="canvasLocation" x="-2887" y="1276"/>
         </scene>
         <!--Glass View Controller-->
         <scene sceneID="qZP-f1-oKh">
@@ -880,20 +947,6 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZj-P9-w1U">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAH-kU-b9b">
                                 <rect key="frame" x="103" y="731" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -913,6 +966,41 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kql-9L-He4">
+                                <rect key="frame" x="102" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="SCm-8e-sA6"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="Wku-YI-9PR"/>
+                                    <action selector="glassBtn:" destination="gYh-LB-Ews" eventType="touchUpInside" id="kfK-It-XZV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eej-zP-CzI">
+                                <rect key="frame" x="149" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="D5X-cW-HJu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9Ta-dr-bXL"/>
                         <color key="backgroundColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -983,20 +1071,6 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuV-b7-Gtw">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yc-9o-PWO">
                                 <rect key="frame" x="103" y="731" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1016,6 +1090,41 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yb-He-0xj">
+                                <rect key="frame" x="103" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="ON5-WA-siH"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="Cse-MI-BG0"/>
+                                    <action selector="inkBtn:" destination="z39-6b-i1c" eventType="touchUpInside" id="Yea-Mf-nAW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PV-8E-jmw">
+                                <rect key="frame" x="150" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="EHR-vW-Yol"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nA6-m8-tdq"/>
                         <color key="backgroundColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1052,20 +1161,6 @@ supporting restaurants with biodegradable/compostable utensils
                                 <color key="textColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhS-yK-mbn">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oy5-cc-c5M">
                                 <rect key="frame" x="103" y="731" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1124,6 +1219,41 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82O-gd-CBT">
+                                <rect key="frame" x="102" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="wAy-e7-Wi8"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="xds-mu-JpG"/>
+                                    <action selector="pizzaBtn:" destination="wLq-bx-40I" eventType="touchUpInside" id="4fi-jy-k0M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC8-dN-GB9">
+                                <rect key="frame" x="149" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="TRW-5o-ENM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="J4j-Dn-7kW"/>
                         <color key="backgroundColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1410,20 +1540,6 @@ supporting restaurants with biodegradable/compostable utensils
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEq-eA-Cut">
-                                <rect key="frame" x="103" y="693" width="209" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <state key="normal" title="Click Here If You Recycled">
-                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Np-zA-ZJb">
                                 <rect key="frame" x="103" y="731" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1439,6 +1555,41 @@ supporting restaurants with biodegradable/compostable utensils
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="iuV-mB-EFc" kind="show" id="p5j-1p-v8g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmF-By-mwd">
+                                <rect key="frame" x="102" y="693" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="✅">
+                                    <color key="titleColor" red="1" green="0.99607843139999996" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didRecycleBtn:" destination="zZd-vx-uvz" eventType="touchUpInside" id="qv5-sn-Hp2"/>
+                                    <action selector="foilsBtn:" destination="qdm-Yh-K3r" eventType="touchUpInside" id="hjD-0v-eI4"/>
+                                    <action selector="sodaBtn:" destination="vlP-UZ-BH5" eventType="touchUpInside" id="9qn-us-SfG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeE-d0-A6x">
+                                <rect key="frame" x="149" y="693" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3294117647" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Track Habits">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="OtS-lQ-Bj7" kind="show" id="uQr-sf-6KK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1511,8 +1662,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7I-Q1-S1A">
-                                                <rect key="frame" x="155" y="203" width="158" height="48"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7I-Q1-S1A">
+                                                <rect key="frame" x="155" y="203" width="231" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1525,15 +1676,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67A-f7-E1b">
-                                                <rect key="frame" x="266" y="328" width="41" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5H-Io-5xh">
-                                                <rect key="frame" x="155" y="328" width="113" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5H-Io-5xh">
+                                                <rect key="frame" x="155" y="328" width="223" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1546,15 +1690,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA6-yU-ewd">
-                                                <rect key="frame" x="266" y="445" width="41" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eO-ow-QS0">
-                                                <rect key="frame" x="155" y="445" width="113" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eO-ow-QS0">
+                                                <rect key="frame" x="155" y="445" width="231" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1567,15 +1704,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1f3-xg-7Oy">
-                                                <rect key="frame" x="266" y="563" width="41" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMd-60-AMs">
-                                                <rect key="frame" x="155" y="563" width="113" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMd-60-AMs">
+                                                <rect key="frame" x="155" y="563" width="223" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1588,22 +1718,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYe-mL-NEC">
-                                                <rect key="frame" x="266" y="683" width="41" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fk-f8-ujl">
-                                                <rect key="frame" x="266" y="801" width="41" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGn-tu-Xzy">
-                                                <rect key="frame" x="155" y="683" width="113" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGn-tu-Xzy">
+                                                <rect key="frame" x="155" y="683" width="231" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1616,15 +1732,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eil-VE-gaw">
-                                                <rect key="frame" x="155" y="801" width="113" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPC-4A-X7I">
-                                                <rect key="frame" x="266" y="919" width="41" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eil-VE-gaw">
+                                                <rect key="frame" x="155" y="801" width="223" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1637,15 +1746,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5t-n9-8Tb">
-                                                <rect key="frame" x="155" y="919" width="113" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxT-TY-b0X">
-                                                <rect key="frame" x="266" y="1038" width="41" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5t-n9-8Tb">
+                                                <rect key="frame" x="155" y="919" width="223" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1658,8 +1760,8 @@ supporting restaurants with biodegradable/compostable utensils
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You recycled: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luR-Qb-mkz">
-                                                <rect key="frame" x="155" y="1038" width="113" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luR-Qb-mkz">
+                                                <rect key="frame" x="155" y="1038" width="223" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.41568627450000001" green="0.6588235294" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1716,7 +1818,14 @@ supporting restaurants with biodegradable/compostable utensils
                     <navigationItem key="navigationItem" id="Oma-Am-MCH"/>
                     <size key="freeformSize" width="414" height="1300"/>
                     <connections>
+                        <outlet property="batteryCount" destination="c5t-n9-8Tb" id="fpD-lN-tbq"/>
+                        <outlet property="foilsCountLabel" destination="W5H-Io-5xh" id="Saz-C2-lJw"/>
+                        <outlet property="foodCount" destination="luR-Qb-mkz" id="hSG-se-BYq"/>
+                        <outlet property="glassCount" destination="8eO-ow-QS0" id="Skm-62-YbM"/>
+                        <outlet property="inkCount" destination="tMd-60-AMs" id="VVB-Zo-UGd"/>
+                        <outlet property="pizzaCount" destination="rGn-tu-Xzy" id="81S-T7-bre"/>
                         <outlet property="plasticCountLabel" destination="z7I-Q1-S1A" id="Pvv-bw-usy"/>
+                        <outlet property="sodaCount" destination="Eil-VE-gaw" id="rN5-FR-vOB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W4r-UF-Rwp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1797,8 +1906,8 @@ supporting restaurants with biodegradable/compostable utensils
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YUT-xC-gv2"/>
-        <segue reference="60n-K1-u7U"/>
+        <segue reference="biX-dO-hFE"/>
+        <segue reference="MFn-mF-3EV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="aluminum foil" width="600" height="600"/>

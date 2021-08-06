@@ -22,7 +22,6 @@ class PlasticViewController: UIViewController {
     @IBAction func didRecycleBtn(_ sender: UIButton) {
         // modifying the variable plasticCounter of the object plastics of the class RecycleCount
         plastics.plasticCounter += 1
-        print(plastics.plasticCounter)
         
     }
     
@@ -38,9 +37,7 @@ class PlasticViewController: UIViewController {
         // if segue destination is TrendViewController, create variable trendVC that is equal to TrendViewController
         
         if let trendVC = segue.destination as? TrendViewController {
-            
             // sharing properties between the two objects of the same class RecycleCount so they end up being the same
-            
             trendVC.trends = plastics
             
         }

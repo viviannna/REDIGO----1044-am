@@ -8,6 +8,7 @@
 import UIKit
 
 class PizzaBoxesViewController: UIViewController {
+    var pizza = RecycleCount()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,15 +16,20 @@ class PizzaBoxesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
+    @IBAction func pizzaBtn(_ sender: Any) {
+        pizza.pizzaCounter += 1
+    }
+    
+        // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let trendVC = segue.destination as? TrendViewController {
+            // sharing properties between the two objects of the same class RecycleCount so they end up being the same
+            trendVC.trends = pizza
+            
+        }
     }
-    */
+
 
 }
